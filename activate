@@ -1,0 +1,5 @@
+cd boyar
+composer install
+php init
+yii migrate
+yii rbac/init

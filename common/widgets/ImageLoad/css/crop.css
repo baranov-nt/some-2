@@ -1,0 +1,111 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 0;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    display: block;
+}
+/* Классы для аватара */
+.imageAvatar {
+    width: 100px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    border: 5px solid #f4f4f4;
+    border-radius: 3px;
+    margin: 5px;
+    transition: 0.2s;
+}
+.imageAvatar:hover {
+    cursor: pointer;
+    border: 5px solid #cccccc;
+}
+.btn-imageDeleteAvatar {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    z-index: 1 ;
+}
+.imageContainerAvatar {
+    position: relative !important;
+    float: left;
+}
+.formImageContainerAvatar {
+    position: relative !important;
+    float: left;
+    margin: 0 0 20px 0;
+}
+/* Классы для изображения карусели */
+.imageCarousel {
+    width: 160px;
+    height: 90px;
+    float: left;
+    cursor: pointer;
+    border: 5px solid #f4f4f4;
+    border-radius: 3px;
+    margin: 5px;
+    transition: 0.2s;
+}
+.imageCarousel:hover {
+    cursor: pointer;
+    border: 5px solid #cccccc;
+}
+.btn-imageDeleteCarousel {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    z-index: 1 ;
+}
+.imageContainerCarousel {
+    position: relative !important;
+    float: left;
+}
+.formImageContainerCarousel {
+    position: relative !important;
+    float: left;
+    margin: 0 0 20px 0;
+}
+/* Классы для изображения продуктов */
+.imageProduct {
+    width: 160px;
+    height: 90px;
+    float: left;
+    cursor: pointer;
+    border: 5px solid #f4f4f4;
+    border-radius: 3px;
+    margin: 5px;
+    transition: 0.2s;
+}
+.imageProduct:hover {
+    cursor: pointer;
+    border: 5px solid #cccccc;
+}
+.btn-imageDeleteProduct {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    z-index: 1 ;
+}
+.imageContainerProduct {
+    position: relative !important;
+    float: left;
+}
+.formImageContainerProduct {
+    position: relative !important;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+
